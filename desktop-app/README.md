@@ -27,6 +27,5 @@ Yöneticisi ve tam ekran oyunlarda bile kusursuz çalışır).
 ​🛠️ Kaynak Koddan Çalıştırma (Geliştiriciler İçin)
 ​Bilgisayarınızda Python yüklüyse projeyi kendiniz çalıştırabilir veya derleyebilirsiniz:
 
-# 1. Kütüphaneleri yükleyin pip install -r requirements.txt
-
-# 2. Uygulamayı başlatın python takolicopy.py
+1. Kütüphaneleri yükleyin pip install -r requirements.txt
+2. Uygulamayı başlatın python takolicopy_desktop.py
