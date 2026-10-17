@@ -21,7 +21,7 @@ Yöneticisi ve tam ekran oyunlarda bile kusursuz çalışır).
 
 ​📥 İndirme ve Kullanım (.exe)
 ​Kodlarla uğraşmak istemiyorsanız, Python yüklemeden doğrudan tek dosyalık programı çalıştırmak için:
-​Sağ taraftaki [suspicious link removed] sayfasına gidin.
+​Sağ taraftaki releases sayfasına gidin.
 ​En son sürümün altındaki TakoliCopy.exe dosyasını indirin ve dilediğiniz yere atıp doğrudan çalıştırın!
 
 ​🛠️ Kaynak Koddan Çalıştırma (Geliştiriciler İçin)
