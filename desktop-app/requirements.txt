@@ -1,0 +1,4 @@
+PyQt6
+pynput
+requests
+rapidocr-onnxruntime
