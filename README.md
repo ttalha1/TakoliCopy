@@ -1,31 +1,55 @@
-​⚡ TakoliCopy — Masaüstü OCR, Anında Çeviri, Seslendirme & Yapay Zeka Asistanı
+# ⚡ ScreenPix / TakoliCopy — Masaüstü OCR, Anında Çeviri, Seslendirme & Yapay Zeka Asistanı
 
-​TakoliCopy, ekranınızdaki oyunlardan, videolardan, PDF'lerden veya kopyalama engeli bulunan herhangi bir alandan fareyle hızlıca metin veya görsel seçmenizi sağlayan yüksek performanslı bir masaüstü yardımcı aracıdır.
-​
-✨ Öne Çıkan Özellikler
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/License-PolyForm%20Noncommercial-red" alt="PolyForm Noncommercial License">
+</p>
 
-​🎯 Hızlı Ekran Seçimi (Alt + S veya Alt + Sol Tık Sürükle): Ekranı dondurmadan dilediğiniz alanı anında seçin. (Aygıt 
-Yöneticisi ve tam ekran oyunlarda bile kusursuz çalışır).
+**TakoliCopy (ScreenPix)**, ekranınızdaki oyunlardan, videolardan, PDF'lerden veya kopyalama engeli bulunan herhangi bir alandan fareyle hızlıca metin veya görsel seçmenizi sağlayan yüksek performanslı bir masaüstü yardımcı aracıdır.
 
-​🧠 Akıllı OCR: Karanlık mod, kod blokları ve özel fontlardaki yazıları en yüksek doğrulukla okur.
+---
 
-​🌍 Anında Çok Dilli Çeviri: Yakalanan metni dilediğiniz dile anında çevirir, hedef dili değiştirdiğinizde anında günceller.
+## ✨ Öne Çıkan Özellikler
 
-​🌐 Otomatik Dil Tanıma & Doğal Sesli Okuma (🔊 Oku): Metnin orijinal dilini otomatik algılar ve o dilin orijinal aksanıyla seslendirir.
+* 🎯 **Hızlı Ekran Seçimi (`Alt + S` veya `Alt + Sol Tık Sürükle`):** Ekranı dondurmadan dilediğiniz alanı anında seçin. (Aygıt Yöneticisi ve tam ekran oyunlarda bile kusursuz çalışır).
+* 🧠 **Akıllı OCR:** Karanlık mod, kod blokları ve özel fontlardaki yazıları en yüksek doğrulukla okur.
+* 🌍 **Anında Çok Dilli Çeviri:** Yakalanan metni dilediğiniz dile anında çevirir, hedef dili değiştirdiğinizde anında günceller.
+* 🌐 **Otomatik Dil Tanıma & Doğal Sesli Okuma (`🔊 Oku`):** Metnin orijinal dilini otomatik algılar ve o dilin orijinal aksanıyla seslendirir.
+* 🤖 **Yapay Zeka (AI) Entegrasyonu:** Kendi Gemini, OpenAI, Groq, DeepSeek veya Ollama API anahtarınızı bağlayarak ekran görüntüsü ve metin analizi yapın.
+* 🔍 **Google Lens Desteği:** Seçilen görseli tek tıkla Google Lens'te aratın.
+* 💻 **Yazılımcılar İçin `</> Kod` Modu:** Kod satırlarındaki bozuk boşlukları ve gereksiz satır aralarını temizler.
 
-​🤖 Yapay Zeka (AI) Entegrasyonu: Kendi Gemini, OpenAI, Groq, DeepSeek veya Ollama API anahtarınızı bağlayarak ekran görüntüsü ve metin analizi yapın.
+---
 
-​🔍 Google Lens Desteği: Seçilen görseli tek tıkla Google Lens'te aratın.
-​
-💻 Yazılımcılar İçin </> Kod Modu: Kod satırlarındaki bozuk boşlukları ve gereksiz satır aralarını temizler.
+## 📥 İndirme ve Kullanım (.exe)
 
-​📥 İndirme ve Kullanım (.exe)
-​Kodlarla uğraşmak istemiyorsanız, Python yüklemeden doğrudan tek dosyalık programı çalıştırmak için:
-​Sağ taraftaki releases sayfasına gidin.
-​En son sürümün altındaki TakoliCopy.exe dosyasını indirin ve dilediğiniz yere atıp doğrudan çalıştırın!
+Kodlarla uğraşmak istemiyorsanız, Python yüklemeden doğrudan tek dosyalık programı çalıştırmak için:
 
-​🛠️ Kaynak Koddan Çalıştırma (Geliştiriciler İçin)
-​Bilgisayarınızda Python yüklüyse projeyi kendiniz çalıştırabilir veya derleyebilirsiniz:
+1. Sağ taraftaki **[Releases](../../releases)** sayfasına gidin.
+2. En son sürümün altındaki **`ScreenPix.exe`** (veya `TakoliCopy.exe`) dosyasını indirin ve dilediğiniz yere atıp doğrudan çalıştırın!
 
-1. Kütüphaneleri yükleyin pip install -r requirements.txt
-2. Uygulamayı başlatın python takolicopy_desktop.py
+---
+
+## 🛠️ Kaynak Koddan Çalıştırma (Geliştiriciler İçin)
+
+Bilgisayarınızda Python yüklüyse projeyi kendiniz çalıştırabilir veya derleyebilirsiniz:
+
+```bash
+# 1. Klasöre gidin
+cd desktop-app
+
+# 2. Kütüphaneleri yükleyin
+pip install -r requirements.txt
+
+# 3. Uygulamayı başlatın
+python takolicopy_desktop.py
+```
+
+---
+
+## 📄 Lisans
+
+Bu proje **[PolyForm Noncommercial License 1.0.0](LICENSE)** ile lisanslanmıştır.
+
+- ✅ **İzin Verilenler:** İnceleme, değiştirme, çatallama (fork), kişisel kullanım, eğitim, araştırma, hobi projeleri ve ticari olmayan tüm geliştirmeler serbesttir.
+- 🚫 **Yasak Olanlar:** Telif hakkı sahibinden yazılı izin alınmaksızın projenin doğrudan veya dolaylı olarak satılması, ticari işletmelerde kullanılması veya ücretli bir ürüne dönüştürülmesi kesinlikle yasaktır.
