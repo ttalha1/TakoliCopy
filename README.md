@@ -25,7 +25,7 @@
 
 Kodlarla uğraşmak istemiyorsanız, Python yüklemeden doğrudan tek dosyalık programı çalıştırmak için:
 
-1. Sağ taraftaki **[Releases](../../releases)** sayfasına gidin.
+1. Sağ taraftaki **[Releases](https://github.com/ttalha1/TakoliCopy/releases)** sayfasına gidin.
 2. En son sürümün altındaki **`ScreenPix.exe`** (veya `TakoliCopy.exe`) dosyasını indirin ve dilediğiniz yere atıp doğrudan çalıştırın!
 
 ---
